@@ -2,10 +2,9 @@ cargo-features = ["edition2024"]
 
 [package]
 name = "msp430g2230-pac"
-version = "0.1.0"
+version = "0.1.1"
 description = """
-A function to convert integers to their roman numeral representation as strings. Values from 1 to
-3999 are possible, otherwise it returns an OutOfRangeError. Zero has no representation in roman numerals.
+Peripheral Access Crate (PAC) for the msp430g2230, generated using msp430_svd and svd2rust.
 """
 authors = ["Dylan Keller <drkeller2000@outlook.com"]
 license = "MIT"
