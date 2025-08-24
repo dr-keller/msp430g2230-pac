@@ -20,6 +20,9 @@ homepage = "https://github.com/dr-keller/msp430g2230-pac"
 msp430 = "0.4.1"
 vcell = "0.1.3"
 
+[dev-dependencies]
+svd2rust = "0.37.0"
+
 [dependencies.critical-section]
 optional = true
 version = "1.0.0"
