@@ -9,7 +9,7 @@ A function to convert integers to their roman numeral representation as strings.
 """
 authors = ["Dylan Keller <drkeller2000@outlook.com"]
 license = "MIT"
-keywords = ["msp430", "embedded", "pac"]
+keywords = ["embedded"]
 categories = ["msp430"]
 readme = "README.md"
 repository = "https://github.com/dr-keller/msp430g2230-pac.git"
