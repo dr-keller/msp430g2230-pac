@@ -1,6 +1,32 @@
+cargo-features = ["edition2024"]
+
 [package]
 name = "msp430g2230-pac"
 version = "0.1.0"
-edition = "2024"
+description = """
+A function to convert integers to their roman numeral representation as strings. Values from 1 to
+3999 are possible, otherwise it returns an OutOfRangeError. Zero has no representation in roman numerals.
+"""
+authors = ["Dylan Keller <drkeller2000@outlook.com"]
+license = "MIT"
+keywords = ["msp430", "embedded", "pac"]
+categories = ["msp430"]
+readme = "README.md"
+repository = "https://github.com/dr-keller/msp430g2230-pac.git"
+homepage = "https://github.com/dr-keller/msp430g2230-pac"
+
 
 [dependencies]
+msp430 = "0.4.1"
+vcell = "0.1.3"
+
+[dependencies.critical-section]
+optional = true
+version = "1.0.0"
+
+[dependencies.msp430-rt]
+optional = true
+version = "0.4.0"
+
+[features]
+rt = ["msp430-rt/device"]
