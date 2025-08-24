@@ -1,1 +1,1 @@
-This repository was created for a Peripheral Access Crate (PAC) for the msp430g2230 using msp430_svd and svd2rust
+Peripheral Access Crate (PAC) for the msp430g2230, generated using msp430_svd and svd2rust
